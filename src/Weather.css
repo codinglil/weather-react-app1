@@ -1,0 +1,214 @@
+.container {
+  border: 1px solid rgba(51, 192, 248, 0.6);
+  border-radius: 5px;
+  background-color: rgba(28, 94, 187, 0.5);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  width: 700px;
+  position: relative;
+  margin-bottom: 135px;
+}
+.header {
+  background-color: rgb(227, 218, 218);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+  position: relative;
+}
+h1 {
+  font-family: "Paytone One", sans-serif;
+  margin: 10px auto;
+  text-align: center;
+  color: rgb(13, 13, 114);
+  padding: 10px;
+}
+.main {
+  position: relative;
+}
+
+.search-place {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(47, 46, 46);
+  margin-bottom: 8px;
+}
+.search-icon {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  background-color: rgb(227, 218, 218);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  margin-right: 10px;
+}
+.search-icon:hover {
+  padding: 11px;
+  transition: all 150ms ease-in-out;
+}
+
+.search-area {
+  display: inline-block;
+}
+.temperature {
+  display: inline-block;
+  font-family: "Bubblegum Sans", cursive;
+}
+.f,
+.c {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.f {
+  color: rgb(203, 6, 6);
+  padding-right: 0;
+}
+.f:hover {
+  color: rgb(177, 12, 180);
+  font-size: 34px;
+  cursor: pointer;
+}
+.c {
+  color: rgb(23, 23, 205);
+  padding-left: 0;
+}
+.c:hover {
+  color: green;
+  font-size: 34px;
+  cursor: pointer;
+}
+.vertical {
+  color: black;
+  font-size: 30px;
+}
+
+.current-day {
+  position: relative;
+  right: 30px;
+  background-color: rgb(227, 218, 218);
+  border-radius: 90px;
+  padding: 4px 4px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.current-day-title {
+  margin: 10px auto 0;
+  padding: 0;
+  font-family: "Orelega One", cursive;
+  color: black;
+}
+
+img {
+  background-color: inherit;
+  width: 100px;
+  border-radius: 75px;
+}
+.current-date {
+  font-size: 14px;
+  font-weight: 600;
+}
+.current-temperature {
+  font-family: "Bubblegum Sans", cursive;
+  color: rgb(203, 6, 6);
+  font-weight: bolder;
+  font-size: large;
+}
+.chosen-city {
+  position: relative;
+  bottom: 60px;
+  margin-bottom: -50px;
+}
+.chosen-city-title {
+  display: inline-block;
+  font-family: "Orelega One", cursive;
+}
+ul li {
+  display: block;
+  text-decoration: none;
+}
+
+.myCity {
+  display: block;
+  margin: 0 auto 30px;
+  background-color: rgb(53, 162, 51);
+  color: white;
+  font-weight: 500;
+  border: 1px solid rgb(62, 61, 61);
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px rgb(102, 101, 101);
+  transition: all 150ms ease-in-out;
+  width: 300px;
+  font-family: "Orelega One", cursive;
+  font-size: 18px;
+}
+.myCity:hover {
+  background-color: rgb(184, 38, 38);
+}
+
+.lower {
+  padding: 3px;
+}
+
+.card-title {
+  background-color: rgb(227, 218, 218);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(13, 13, 114);
+  font-family: "Bubblegum Sans", cursive;
+  font-weight: 600;
+}
+.card-title:hover {
+  border-radius: 15px;
+}
+
+.card {
+  background-color: rgba(154, 196, 237, 0.5);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  transition: all 150ms ease-in-out;
+  border: 1px solid rgba(94, 96, 99, 0.3);
+}
+.card:hover {
+  cursor: pointer;
+  background-color: rgb(238, 206, 206);
+  border-radius: 20px;
+}
+.card-body {
+  padding: 5px;
+  text-align: center;
+}
+#weather-img {
+  position: relative;
+  width: 60px;
+}
+
+.col-weather-details {
+  font-size: large;
+  text-align: center;
+}
+.other-temp {
+  color: rgb(23, 23, 205);
+  font-weight: bolder;
+  font-family: "Bubblegum Sans", cursive;
+  text-align: center;
+}
+h3 img {
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  font-family: monospace;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.github-link {
+  color: rgb(13, 13, 114);
+  font-size: 14px;
+  font-weight: 600;
+}
