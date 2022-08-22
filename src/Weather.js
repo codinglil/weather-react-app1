@@ -79,7 +79,7 @@ export default function Weather() {
       <div className="lower"></div>
       <footer>
         <a
-          href="https://github.com/codinglil/my-weather-app1"
+          href="https://github.com/codinglil/weather-react-app1"
           target="_blank"
           rel="noreferrer"
           className="github-link"
