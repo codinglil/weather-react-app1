@@ -5,7 +5,7 @@
   padding: 20px;
   margin-top: 10px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-  width: 700px;
+  width: 650px;
   position: relative;
   margin-bottom: 135px;
 }
@@ -80,6 +80,7 @@ h1 {
 .vertical {
   color: black;
   font-size: 30px;
+  margin: 0 5px 0;
 }
 
 .current-day {

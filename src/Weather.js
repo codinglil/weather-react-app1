@@ -61,7 +61,7 @@ export default function Weather() {
             📍
           </span>
           <span className="chosen-city-name" id="chosen-city-name-update">
-            <em> {weatherData.city} </em>
+            &nbsp; {weatherData.city}
           </span>
         </h3>
         <br />
